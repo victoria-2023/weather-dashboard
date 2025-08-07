@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard - React App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        h1 { margin-bottom: 20px; }
+        .instructions {
+            text-align: left;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            margin: 10px 0;
+        }
+        .step {
+            margin: 15px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ React Weather Dashboard</h1>
+        <p>Your React weather dashboard is ready! Follow these steps to get started:</p>
+        
+        <div class="instructions">
+            <div class="step">
+                <strong>1. Get API Key</strong><br>
+                Visit <a href="https://openweathermap.org/api" target="_blank" style="color: #74b9ff;">OpenWeatherMap API</a> and get your free API key
+            </div>
+            
+            <div class="step">
+                <strong>2. Add API Key</strong><br>
+                Open <code>src/WeatherDashboard.jsx</code> and replace:
+                <div class="code">const API_KEY = "YOUR_OPENWEATHERMAP_API_KEY";</div>
+                with your actual API key
+            </div>
+            
+            <div class="step">
+                <strong>3. Install Dependencies</strong><br>
+                Open terminal in this folder and run:
+                <div class="code">npm install</div>
+            </div>
+            
+            <div class="step">
+                <strong>4. Start the App</strong><br>
+                Run the development server:
+                <div class="code">npm start</div>
+            </div>
+        </div>
+        
+        <p>The app will open at <strong>http://localhost:3000</strong></p>
+        
+        <h3>📁 Project Structure Created:</h3>
+        <div style="text-align: left; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px; font-family: monospace; font-size: 14px;">
+            weather-dashboard/<br>
+            ├── public/index.html<br>
+            ├── src/<br>
+            │   ├── App.jsx<br>
+            │   ├── App.css<br>
+            │   ├── WeatherDashboard.jsx<br>
+            │   ├── WeatherDashboard.css<br>
+            │   ├── index.js<br>
+            │   └── index.css<br>
+            ├── package.json<br>
+            └── README.md
+        </div>
+    </div>
+</body>
+</html>
