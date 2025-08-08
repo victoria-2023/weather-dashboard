@@ -10,15 +10,7 @@
 
 A modern React weather dashboard using the [OpenWeatherMap API](https://openweathermap.org/api).
 
-## 🔗 Live Demo
-**[🌤️ View Live Demo](https://your-weather-dashboard.netlify.app)** 
 
-> Replace with your actual Netlify URL after deployment
-
-## 📸 Screenshots
-![Weather Dashboard Preview](https://via.placeholder.com/800x500/74b9ff/ffffff?text=Weather+Dashboard+Preview)
-
-> Add your actual screenshots after deployment
 
 ## 🛠️ Built With
 - **Frontend:** React 18.2.0, CSS3, HTML5
