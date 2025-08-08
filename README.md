@@ -1,4 +1,7 @@
-# Weather Dashboard
+# Weather Dashboard : https://weather-dashboard-official.netlify.app/
+
+<img width="1895" height="437" alt="image" src="https://github.com/user-attachments/assets/c82765fc-9f16-478a-a726-ad829761e1e4" />
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/your-site-id/deploy-status)](https://app.netlify.com/sites/your-site-name/deploys)
 [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)](https://reactjs.org/)
